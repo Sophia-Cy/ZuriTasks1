@@ -1,0 +1,128 @@
+*{
+    margin-top:20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+main{
+    background-color:hsl(0, 0%, 95%);
+    width:70%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    align-items:left;
+    height:80vh;
+    flex-direction: rows;
+    font-size: 15px;
+}
+
+img{
+    margin-left: 20px ;
+    padding-top: 50px;
+}
+
+
+.left-content{
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    width:600px;    
+
+}
+.left-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: "Lexend Deca";
+    font-weight: 400px;
+}
+.left-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family:"Big Shoulders" ;
+
+}
+
+.left-content button{
+    border-radius: 20px;
+    background-color: white;
+    color:hsl(31, 77%, 52%);
+    font-weight: bold;
+    margin: 79px 20px;
+    padding:10px;
+    align-items: center;
+    border:none;
+}
+.middle-content{
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+    width: 600px;
+    
+    
+}
+.middle-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: "Lexend Deca";
+    font-weight: 400px;
+
+}
+.middle-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family:"Big Shoulders" ;
+
+}
+.middle-content button{
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(184, 100%, 22%);;
+    margin-top: 20px;
+    font-weight:bold;
+    margin:81px 20px;
+    padding:10px;
+    align-items: center;
+    border: none;
+
+}
+.right-content{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    width: 600px;
+    
+   
+}
+.right-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    font-family: "Lexend Deca";
+    font-weight: 400px;
+
+}
+.right-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 20px;
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family:"Big Shoulders" ;
+
+}
+.right-content button{
+    border-radius: 20px;
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    margin-top: 50px;
+    font-weight: bold;
+    margin:98px 20px;
+    padding:10px;
+    align-items: center;
+    border:none;
+}

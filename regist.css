@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin:20px;
+    display: block;
+    
+}
+
+main{
+    display: flex;
+}
+div.left-content{
+    padding: 50px;
+    display: block;
+    box-sizing: border-box;
+
+}
+/*.heading .container{
+    display: grid;
+    grid-template-areas: 
+    h h
+    c c;*/
+
+
+div.container{
+    display: grid;
+    grid-area:c;
+    background-color: whitesmoke;
+    color: black;
+    width: 70%;
+    padding: 40px;
+    margin-right:20px;
+    align-items: center;
+}
+input[type=text], input[type=password]{
+    width:100%;
+    padding: 10px;
+    margin:5px 0 5px 0;
+    display: inline-block;
+    background-color: aliceblue;
+}
+.registerbtn{
+    background-color: green;
+    color: aliceblue;
+    border: none;
+    padding: 10px;
+    margin:5px 20px;
+    width: 100%;
+}
